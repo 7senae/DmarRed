@@ -1,0 +1,26 @@
+#  ===================================================================== #
+#                               RedstonePVP   [ Version=1.0 ]
+#  ===================================================================== #
+#Author : MostafaAdly
+
+RedstonePvP:
+  Settings:
+
+    #RandomBox minimum must be from [0 , 9 , 18 , 27 , 36 , 45]
+    Minimum: 18
+
+    #RandomBox maximum must be from [8 , 17 , 26 , 35 , 44 , 53]
+    Maximum: 26
+
+    #Inventory size must be a multiply of 9   [9 , 18 , 27 , 36 , 45 , 56]
+    Inventory-Size: 36
+
+    #Inventory name must contain 'Random' > CaSe SenSitiVe
+    Inventory-Name: '&b&lRandom&a&lBox'
+
+    Drop_Party:
+
+      #cooldown must be in seconds
+      cooldown: 1800
+
+      minimum_players: 10

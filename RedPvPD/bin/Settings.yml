@@ -1,0 +1,41 @@
+#  ===================================================================== #
+# Plugin :                             RedstonePVP                       #
+# Version: 1.0                                                           #
+# Author : MostafaAdly,foxy                                                   #
+#  ===================================================================== #
+
+RedstonePvP:
+  Settings:
+    #Main item [ default : 331]
+    Main_Item: 331
+    #The Amount of Sub_item to drop!
+    Sub_Item_DropAmount: 1
+    #for example: Drop 1 sub_item every 10 items [chance of 10]
+    Sub_Item_DropChance: 10
+    Repair:
+      Cost: 64
+      # this is counted in stacks  .. for example if amount of stacks = 20 then [64 * 20 = 1152]
+      RepairAll_Cost: 1152
+
+    Random_Box:
+    #Cost must be less than 64
+      Cost: 64
+    #RandomBox minimum must be from [9 , 18 , 27 , 36 , 45] STARTING POINT
+      Minimum: 18
+
+    #RandomBox maximum must be from [17 , 26 , 35 , 44 , 53] ENDING POINT
+      Maximum: 26
+
+    #Inventory size must be a multiply of 9   [9 , 18 , 27 , 36 , 45 , 54]
+      Inventory-Size: 45
+
+    #Inventory name must contain 'Random' > CaSe SenSitiVe
+      Inventory-Name: '&b&lRandom&a&lBox'
+
+    Drop_Party:
+
+      #cooldown must be in seconds
+      cooldown: 1800
+
+      Amount_of_Stacks: 10
+      minimum_players: 10

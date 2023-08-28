@@ -1,0 +1,12 @@
+name: DmarRedPvP
+version: 1.0-SNAPSHOT
+main: com.foxy.redpvp.Main
+authors: [ MostafaAdly,Foxy ]
+description: RedstonePVP [ GAME ] for DmarMC Server
+commands:
+  stats:
+  redpvp:
+  rp:
+  redstonepvp:
+  build:
+  trash:
